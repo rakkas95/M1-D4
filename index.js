@@ -73,7 +73,9 @@ Write a function "check3and7" which accepts a positive number and check if it is
 HINT: Module Operator
 */
 
-/* WRITE YOUR CODE HERE */
+const check3and7 = () => {
+    
+}
 
 /* EXERCISE 7
 Write a function "reverseString" to programmatically reverse a given string (es.: Strive => evirtS).
@@ -118,7 +120,14 @@ console.log(cutString("Hello World"))
 Write a function "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
 
-/* WRITE YOUR CODE HERE */
+const giveMeRandom = (n) => {
+    let arrayN = [];
+    for (i = 0; i <= n; i++) {
+      arrayN.push(Math.floor(Math.random() * 10 + 0));
+    }
+    return arrayN;
+  };
+  console.log(giveMeRandom(3));
 
 /* WHEN YOU ARE FINISHED
 Commit and push the code to your personal GitHub repository and share the link to your commit in Eduflow.
